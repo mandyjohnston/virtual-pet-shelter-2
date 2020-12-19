@@ -7,10 +7,10 @@ import java.util.Map;
 import static org.junit.Assert.assertEquals;
 
 public class VirtualPetShelterTest {
-    Dragon dragon1 = new Dragon("Tina", "She's running out of fire", 50, 50, 50);
-    Alligator alligator1 = new Alligator("Akira", "She's got sharp teeth, ",50, 50, 50);
-    Dog dog1 = new Dog("Mickey", "He'll slobber all over you",50, 50, 50);
-    Cat cat1 = new Cat("Kelso", "He's a big cuddler", 50, 50, 50);
+    OrganicCat dragon1 = new OrganicCat("Tina", "She's running out of fire", 50, 50, 50,50);
+    RoboticDog alligator1 = new RoboticDog("Akira", "She's got sharp teeth, ",50, 50, 50,50);
+    OrganicDog dog1 = new OrganicDog("Mickey", "He'll slobber all over you",50, 50, 50,50);
+    RoboticCat cat1 = new RoboticCat("Kelso", "He's a big cuddler", 50, 50, 50,50);
     VirtualPetShelter bigAls = new VirtualPetShelter();
 
     public Map<String, VirtualPet> animalsInShelter = new HashMap<>();
